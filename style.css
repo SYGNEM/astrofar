@@ -149,6 +149,10 @@ a:hover {
     margin-top: 40px;
 }
 
+.number {
+    color: #fcd529;
+}
+
 #lord-table td {
     width: 50%;
 }
