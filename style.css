@@ -12,7 +12,6 @@ body {
     /* overflow-x: hidden; */
     background-color: rgb(36, 11, 59);
     font-family: 'Jost', Helvetica, Arial, sans-serif;
-    /* font-family: 'Rubik', sans-serif; */
     color: azure;
     font-size: 17px;
     font-weight: 400;
@@ -202,7 +201,6 @@ header a:hover {
     caret-color: #dddddd;
     color: #d4d4d4;
     font-size: 18px;
-    font-family: Rubik, sans-serif;
     padding: 0px 25px;
     z-index: 3;
 }
