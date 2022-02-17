@@ -69,7 +69,7 @@ h4 {
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: .3s;
+    animation-duration: .4s;
 }
 
 @keyframes fadeInOpacity {
