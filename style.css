@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root {
+    --titleColor: #E63F6E;
+    --fontColor: #eddbfa;
+    --bgColor: #271933;
+}
+
 *:focus {
     outline: none;
 }
@@ -20,17 +26,18 @@
 body {
     overflow-y: scroll;
     /* overflow-x: hidden; */
-    background-color: rgb(36, 11, 59);
+    /* background-color: rgb(36, 11, 59); */
+    background-color: var(--bgColor);
     font-family: 'Jost', Arial, sans-serif;
-    color: azure;
+    color: var(--fontColor);
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
 
-    background-image: url("assets/background.jpg");
+    /* background-image: url("assets/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #invisible {
@@ -46,13 +53,22 @@ h1,
 h2,
 h3,
 h4 {
-    color: #AB69DB;
+    color: var(--titleColor);
+    /* 
+    #E23E57 
+    #FF6768 
+    #E43F5A
+    #E94560
+    #E63E6D
+    */
+    margin-bottom: 0%;
 }
 
 ::-moz-selection {
     color: #000000;
     background: #d096ff;
 }
+
 ::selection {
     color: #000000;
     background: #d096ff;
@@ -153,7 +169,6 @@ body::-webkit-scrollbar-thumb {
 
 /* Ripple Styles end */
 
-
 a:link {
     text-decoration: none;
 }
@@ -168,7 +183,7 @@ a:visited {
 }
 
 header a:hover {
-    color: #40a3ff;
+    color: #E63F6E;
 }
 
 .container {
@@ -209,7 +224,7 @@ header a:hover {
     border-radius: 25px;
     background: #000;
     caret-color: #dddddd;
-    color: #d4d4d4;
+    color: #f2d1ff;
     font-size: 18px;
     padding: 0px 25px;
     z-index: 3;
@@ -276,9 +291,9 @@ header a:hover {
 }
 
 .home {
-    color: #000; 
-    background: green; 
-    margin-top: 100px; 
+    color: #000;
+    background: green;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -298,7 +313,7 @@ header a:hover {
     grid-template-areas:
         'title'
         'subtopics';
-    text-align: left;   
+    text-align: left;
 }
 
 /* .item:last-child {
@@ -355,7 +370,7 @@ header a:hover {
 
 #header {
     width: 100%;
-    background-color: #30004C;
+    background-color: #160e1d;
     height: 45px;
     position: fixed;
     top: 0;
@@ -374,13 +389,12 @@ header a:hover {
 
 #logo {
     padding-right: 40px;
-    color: rgb(255, 0, 128);
+    color: #ff0080;
     font-size: 20px;
 }
 
 .nav-link {
-    color: rgb(150, 150, 150);
-    font-weight: bold;
+    color: #e9a6b9;
     padding-right: 25px;
 }
 
