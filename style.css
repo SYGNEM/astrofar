@@ -438,13 +438,3 @@ header a:hover {
     font-size: 70%;
 }
 
-/* //////////// */
-
-/* Responsiveness */
-@media screen and (min-device-width: 780px) {
-    body {
-        background-attachment: fixed;
-    }
-}
-
-/* //////////// */
